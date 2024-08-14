@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- https://fonts.google.com/specimen/Poppins?query=poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <!-- https://fontawesome.com/v4.7/icon/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Travel Web Design</title>
+</head>
+<body>
+    <div id="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="ti ti-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="ti ti-menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </div>
+
+    <!------- about us content  ------->
+
+    <div class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Offer the Most Comprehensive Vietnam Tours</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit. pellentesque aliquet turpis nulla, eleifned
+                faucibus est sollicitudin ut. Maecenasut venenatis ex,
+                et dapibus purus. Donec sit amet bisl non justo
+                malesuada fermentum. Donec edet felis dolor. Suspendisse
+                condimentum vestibulum ex ac cursus. Nam pharetra
+                viverra efficitur. Sed pellentesque luxtus arcu, quis
+                finibus nibh luctus mattis.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./img/about.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+    
+    <!------- Footer ------->
+
+    <div class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit. pellentesque aliquet turpis nulla, eleifned
+        faucibus est<br> sollicitudin ut. Maecenasut venenatis ex,
+        et dapibus purus.</p>
+        <div class="icon">
+            <i class="ta ti-facebook"></i>                   
+            <i class="ta ti-twitter-alt"></i>                  
+            <i class="ta ti-instagram"></i>                   
+            <i class="ta ti-linkedin"></i>                   
+        </div>
+        <p>Made with <i class="ta ti-heart"></i> Easy Tutorials</p>
+    </div>
+
+    <!------- Javascript for Toggle Menu  ------->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

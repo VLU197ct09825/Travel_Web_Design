@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- https://fonts.google.com/specimen/Poppins?query=poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <!-- https://fontawesome.com/v4.7/icon/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Travel Web Design</title>
+</head>
+<body>
+    <div id="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="ti ti-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="ti ti-menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </div>
+
+    <!------- Contact us  ------->
+
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.792518291699!2d106.69679901397613!3d10.82718416121734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528f4a62fce9b%3A0xc99902aa1e26ef02!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBWxINuIExhbmcgLSBDxqEgc-G7nyAz!5e0!3m2!1svi!2s!4v1640849225364!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i> 
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataka, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i> 
+                    <span>
+                        <h5>+84 797975687</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i> 
+                    <span>
+                        <h5>long.197ct09825@vanlanguni.vn</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                    <input type="email" name="email" placeholder="Enter email address">
+                    <input type="text" name="subject" placeholder="Enter subject">
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!------- Footer ------->
+
+    <div class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit. pellentesque aliquet turpis nulla, eleifned
+        faucibus est<br> sollicitudin ut. Maecenasut venenatis ex,
+        et dapibus purus.</p>
+        <div class="icon">
+            <i class="ta ti-facebook"></i>                   
+            <i class="ta ti-twitter-alt"></i>                  
+            <i class="ta ti-instagram"></i>                   
+            <i class="ta ti-linkedin"></i>                   
+        </div>
+        <p>Made with <i class="ta ti-heart"></i> Easy Tutorials</p>
+    </div>
+
+    <!------- Javascript for Toggle Menu  ------->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
